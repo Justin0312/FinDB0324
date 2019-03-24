@@ -1,0 +1,12 @@
+---
+title: "Untitled"
+author: "hw03"
+date: "2019年3月24日"
+output: html_document
+---
+
+```{r}
+library(readr)
+tw50_2018<-read_csv("2018Q4_code.csv",na="null")
+head(tw50_2018)
+```
